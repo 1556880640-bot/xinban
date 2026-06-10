@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files (contains API keys!)
+server/.env
+.env
+
+# Local database
+server/xinban.db
+server/xinban.db-shm
+server/xinban.db-wal
+
+# Uploads
+server/uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
